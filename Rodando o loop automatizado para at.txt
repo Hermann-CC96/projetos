@@ -1,9 +1,0 @@
-Rodando o loop automatizado para atualizar tudo de uma vez no futuro sem precisar entrar na pasta por pasta, você já tem os scripts prontos nas categorias.
-
-cd C:\projetos\estudos_praticas
-Get-ChildItem -Directory | ForEach-Object {
-    Write-Host "Atualizando: $($_.Name)" -ForegroundColor Cyan
-    Set-Location $_.FullName
-    git pull
-    Set-Location ..
-}
