@@ -1,0 +1,29 @@
+
+# Pasta de cache do Python
+__pycache__/ 
+# Arquivos compilados do Python
+*.pyc 
+# Arquivos de ambiente (adicione variações)
+.env
+.env.local
+.env.development
+.env.production
+.env.secrets
+
+# Arquivos de IDE/Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs e temporários
+*.log
+*.tmp
+*.bak
+.DS_Store  # Arquivo do macOS
+
+# Pastas de dependências (se aplicável)
+node_modules/
+vendor/
+dist/
+build/

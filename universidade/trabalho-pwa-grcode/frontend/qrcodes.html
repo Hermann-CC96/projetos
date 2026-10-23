@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus QR Codes - PromoQR</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="login-card">
+
+        <div class="text-center mb-4">
+            <h1>PromoQR</h1>
+            <p>Meus QR Codes</p>
+        </div>
+
+        <ul class="list-group mb-4" id="listaQRCodes">
+            <!-- Os QR Codes serão inseridos pelo JavaScript -->
+        </ul>
+
+        <button
+            class="btn btn-warning w-100 mb-2"
+            id="btnAtualizar">
+            Atualizar Lista
+        </button>
+
+        <a
+            href="home.html"
+            class="btn btn-secondary w-100">
+            Voltar
+        </a>
+
+        <footer>
+            <hr>
+            <small>
+                PromoQR v1.0<br>
+                Projeto da disciplina de Desenvolvimento Web
+            </small>
+        </footer>
+    </div>
+
+</div>
+
+<script src="js/api.js"></script>
+<script src="js/push-client.js"></script> <!-- Script do cliente Push adicionado aqui -->
+<script src="js/qrcodes.js"></script>
+
+</body>
+</html>

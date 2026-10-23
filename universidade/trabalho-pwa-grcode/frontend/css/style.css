@@ -1,0 +1,107 @@
+/* =====================================
+   PromoQR - Estilo Geral
+===================================== */
+
+body{
+    margin:0;
+    padding:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:linear-gradient(135deg,#ffc107,#ffca2c);
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.container{
+    max-width:450px;
+}
+
+.login-card{
+
+    background:white;
+
+    border-radius:20px;
+
+    padding:35px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.20);
+
+}
+
+.login-card h1{
+
+    font-weight:bold;
+
+}
+
+.btn{
+
+    border-radius:12px;
+
+    font-weight:bold;
+
+    transition:.3s;
+
+}
+
+.btn:hover{
+
+    transform:translateY(-2px);
+
+}
+
+.form-control{
+
+    border-radius:10px;
+
+}
+
+#reader{
+
+    width:100%;
+
+    border-radius:15px;
+
+    overflow:hidden;
+
+    border:3px solid #ffc107;
+
+}
+
+.list-group-item{
+
+    border-radius:10px !important;
+
+    margin-bottom:10px;
+
+    border:none;
+
+    box-shadow:0 2px 6px rgba(0,0,0,.08);
+
+}
+
+.alert{
+
+    border-radius:12px;
+
+}
+
+footer{
+
+    margin-top:25px;
+
+    font-size:13px;
+
+    color:#666;
+
+    text-align:center;
+
+}
+
+#reader video {
+    width: 100% !important;
+    height: auto !important;
+    object-fit: cover;
+    transform: scaleX(1) !important; 
+}

@@ -1,0 +1,3 @@
+# Stack maior para a app_main (o padrao de 3584 bytes e curto para printf + buffers)
+CONFIG_ESP_MAIN_TASK_STACK_SIZE=8192
+# Para usar a AT24C256 basta trocar MEM_TAMANHO em src/memoria.h (ou definir -DMEM_TAMANHO=32768UL)
