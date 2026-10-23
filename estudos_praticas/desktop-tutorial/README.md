@@ -1,5 +1,8 @@
-# Welcome to GitHub Desktop!
+﻿# Desktop Tutorial
 
-This is your README. READMEs are where you can communicate what your project is and how to use it.
+## Sobre o Projeto
+Laboratório de estudos e anotações passo a passo sobre desenvolvimento e configuração de aplicações desktop.
 
-Write your name on line 6, save it, and then head back to GitHub Desktop.
+## Estrutura
+- Código-fonte e guias práticos.
+- README.md: Anotações e passos de execução.

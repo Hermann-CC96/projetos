@@ -1,5 +1,9 @@
-## Monitora-Bovino-IoT
-## Estudo de Viabilidade para Rastreamento de Bovinos a Pasto com IoT
-## Grupo: Leão de Berut
-## Disciplina: Projeto Integrador / Estudo de Caso em IoT
-## Tema: Plataforma IoT de Monitoramento e Rastreamento de Bovinos a Pasto
+﻿# Monitora-Bovino-IoT
+
+## Sobre o Projeto
+Sistema IoT voltado para o monitoramento de bovinos, englobando firmware para dispositivos de campo e dashboard para visualização de dados e métricas em tempo real.
+
+## Estrutura
+- Firmware de sensores e comunicação.
+- Dashboard de monitoramento.
+- README.md: Documentação e arquitetura do projeto.
