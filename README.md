@@ -8,7 +8,7 @@ Repositório centralizado (monorepo) que consolida os meus projetos acadêmicos,
 
 O projeto está organizado nas seguintes diretrizes principais:
 
-- **`bootcamps_cursos/`**: Códigos, exercícios e materiais de bootcamps e cursos de capacitação técnica.
+- **`bootcamps_cursos/`**: Códigos e materiais de bootcamps e cursos de capacitação técnica.
 - **`estudos_praticas/`**: Práticas isoladas, tutoriais e testes rápidos de tecnologias.
 - **`projetos_pessoal/`**: Aplicações e projetos desenvolvidos por iniciativa própria (como automações e sistemas IoT).
 - **`universidade/`**: Trabalhos, códigos e avaliações desenvolvidos ao longo da graduação (incluindo Inteligência Artificial, Sistemas Embarcados, Redes e Sistemas de Arquivos).
